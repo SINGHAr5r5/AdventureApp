@@ -1,6 +1,6 @@
 webpackJsonp([14],{
 
-/***/ 391:
+/***/ 393:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ReviewPageModule", function() { return ReviewPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__review__ = __webpack_require__(574);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__review__ = __webpack_require__(576);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -38,7 +38,7 @@ var ReviewPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 574:
+/***/ 576:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47,8 +47,8 @@ var ReviewPageModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(37);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_globaldata_service__ = __webpack_require__(63);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_ServiceFactoryThread__ = __webpack_require__(64);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_base64__ = __webpack_require__(244);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_image_picker__ = __webpack_require__(245);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_base64__ = __webpack_require__(246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_image_picker__ = __webpack_require__(247);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_jquery__ = __webpack_require__(232);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_jquery__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -297,7 +297,7 @@ var ReviewPage = /** @class */ (function () {
     };
     ReviewPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-review',template:/*ion-inline-start:"/Users/singha/Documents/work/test/AdventureApp/src/pages/review/review.html"*/'<!--\n  Generated template for the ReviewPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<!-- <ion-header>\n\n  <ion-navbar>\n    <ion-title>review</ion-title>\n  </ion-navbar>\n\n</ion-header> -->\n\n\n<ion-content padding style="background: rgba(121, 121, 121, 0.5);">\n  <ion-grid class="fame">\n    <ion-row>\n      <ion-col col-10>\n        <span class="textAll">Your overall rating of this property</span>\n      </ion-col>\n      <ion-col col-2 style="text-align: right;" (click)="close()">\n        <ion-icon name="close"></ion-icon>\n      </ion-col>\n    </ion-row>\n    <ion-row>\n      <ion-col>\n        <span>\n            <i class="iconStar-star" [ngClass]="1 <= commentRate ? \'starActive\' : \'\'" (click)="sendRate(1)"></i>\n            <i class="iconStar-star" [ngClass]="2 <= commentRate ? \'starActive\' : \'\'" (click)="sendRate(2)"></i>\n            <i class="iconStar-star" [ngClass]="3 <= commentRate ? \'starActive\' : \'\'" (click)="sendRate(3)"></i>\n            <i class="iconStar-star" [ngClass]="4 <= commentRate ? \'starActive\' : \'\'" (click)="sendRate(4)"></i>\n            <i class="iconStar-star" [ngClass]="5 <= commentRate ? \'starActive\' : \'\'" (click)="sendRate(5)"></i>\n        </span>\n        <span class="textRate">Click to rate</span>\n      </ion-col>\n    </ion-row>\n    <ion-row>\n      <ion-col>\n        <div class="textAll">Your review</div>\n        <ion-textarea style="min-height: 60px;border: none;margin: 0px !important;border: 1px solid #EBEDED;"\n          placeholder="" [(ngModel)]="tetxReview" autocomplete="on" autocorrect="on"></ion-textarea>\n      </ion-col>\n    </ion-row>\n    <ion-row>\n      <ion-col>\n        <div class="textAll">Do you have photos to share? </div>\n        <div style="overflow-x: scroll;width: 100%;white-space: nowrap;" *ngIf="photoresize.length > 0">\n          <div *ngFor="let imgFor of photoresize" [ngStyle]="{\'background\': \'url(\'+ imgFor +\')\'}" class="imageshow"></div>\n          <!-- <div *ngFor="let img of photoresize">{{img}}</div> -->\n        </div>\n        <button ion-button class="btnAdd" (click)="addPhoto()">Add a Photo</button>\n      </ion-col>\n    </ion-row>\n    <ion-row>\n      <ion-col>\n        <hr style="margin-top: 0;">\n        <button ion-button class="btnSubmit" (click)="send_review()">Submit your review</button>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n  <input type="file" multiple (change)="changeListener($event)" accept="image/x-png,image/jpeg" style="position: absolute;top: -50px;"\n    id="filGallerys" />\n</ion-content>'/*ion-inline-end:"/Users/singha/Documents/work/test/AdventureApp/src/pages/review/review.html"*/,
+            selector: 'page-review',template:/*ion-inline-start:"/Users/singha/Documents/work/ionic/Adventure/AdventureApp/src/pages/review/review.html"*/'<!--\n  Generated template for the ReviewPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<!-- <ion-header>\n\n  <ion-navbar>\n    <ion-title>review</ion-title>\n  </ion-navbar>\n\n</ion-header> -->\n\n\n<ion-content padding style="background: rgba(121, 121, 121, 0.5);">\n  <ion-grid class="fame">\n    <ion-row>\n      <ion-col col-10>\n        <span class="textAll">Your overall rating of this property</span>\n      </ion-col>\n      <ion-col col-2 style="text-align: right;" (click)="close()">\n        <ion-icon name="close"></ion-icon>\n      </ion-col>\n    </ion-row>\n    <ion-row>\n      <ion-col>\n        <span>\n            <i class="iconStar-star" [ngClass]="1 <= commentRate ? \'starActive\' : \'\'" (click)="sendRate(1)"></i>\n            <i class="iconStar-star" [ngClass]="2 <= commentRate ? \'starActive\' : \'\'" (click)="sendRate(2)"></i>\n            <i class="iconStar-star" [ngClass]="3 <= commentRate ? \'starActive\' : \'\'" (click)="sendRate(3)"></i>\n            <i class="iconStar-star" [ngClass]="4 <= commentRate ? \'starActive\' : \'\'" (click)="sendRate(4)"></i>\n            <i class="iconStar-star" [ngClass]="5 <= commentRate ? \'starActive\' : \'\'" (click)="sendRate(5)"></i>\n        </span>\n        <span class="textRate">Click to rate</span>\n      </ion-col>\n    </ion-row>\n    <ion-row>\n      <ion-col>\n        <div class="textAll">Your review</div>\n        <ion-textarea style="min-height: 60px;border: none;margin: 0px !important;border: 1px solid #EBEDED;"\n          placeholder="" [(ngModel)]="tetxReview" autocomplete="on" autocorrect="on"></ion-textarea>\n      </ion-col>\n    </ion-row>\n    <ion-row>\n      <ion-col>\n        <div class="textAll">Do you have photos to share? </div>\n        <div style="overflow-x: scroll;width: 100%;white-space: nowrap;" *ngIf="photoresize.length > 0">\n          <div *ngFor="let imgFor of photoresize" [ngStyle]="{\'background\': \'url(\'+ imgFor +\')\'}" class="imageshow"></div>\n          <!-- <div *ngFor="let img of photoresize">{{img}}</div> -->\n        </div>\n        <button ion-button class="btnAdd" (click)="addPhoto()">Add a Photo</button>\n      </ion-col>\n    </ion-row>\n    <ion-row>\n      <ion-col>\n        <hr style="margin-top: 0;">\n        <button ion-button class="btnSubmit" (click)="send_review()">Submit your review</button>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n  <input type="file" multiple (change)="changeListener($event)" accept="image/x-png,image/jpeg" style="position: absolute;top: -50px;"\n    id="filGallerys" />\n</ion-content>'/*ion-inline-end:"/Users/singha/Documents/work/ionic/Adventure/AdventureApp/src/pages/review/review.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* ViewController */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_image_picker__["a" /* ImagePicker */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_base64__["a" /* Base64 */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__services_globaldata_service__["a" /* GlobalDataService */], __WEBPACK_IMPORTED_MODULE_3__services_ServiceFactoryThread__["a" /* ServiceFactoryThread */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* LoadingController */]])
     ], ReviewPage);

@@ -34,31 +34,31 @@ var map = {
 		33
 	],
 	"../pages/bookings/bookings.module": [
-		370,
+		371,
 		32
 	],
 	"../pages/camera/camera.module": [
-		371,
+		372,
 		4
 	],
 	"../pages/chat/chat.module": [
-		373,
+		370,
 		31
 	],
 	"../pages/coconut/coconut.module": [
-		372,
+		373,
 		30
 	],
 	"../pages/detailfeed/detailfeed.module": [
-		375,
+		374,
 		2
 	],
 	"../pages/edit-pick/edit-pick.module": [
-		374,
+		376,
 		29
 	],
 	"../pages/edit-tag/edit-tag.module": [
-		376,
+		375,
 		28
 	],
 	"../pages/editprofile/editprofile.module": [
@@ -94,15 +94,15 @@ var map = {
 		21
 	],
 	"../pages/payment/payment.module": [
-		385,
+		387,
 		0
 	],
 	"../pages/postphoto-modal/postphoto-modal.module": [
-		386,
+		385,
 		20
 	],
 	"../pages/postphoto/postphoto.module": [
-		387,
+		386,
 		19
 	],
 	"../pages/preview/preview.module": [
@@ -110,23 +110,23 @@ var map = {
 		18
 	],
 	"../pages/profile/profile.module": [
-		392,
+		389,
 		17
 	],
 	"../pages/register/register.module": [
-		389,
+		390,
 		16
 	],
 	"../pages/repassword/repassword.module": [
-		390,
+		392,
 		15
 	],
 	"../pages/review/review.module": [
-		391,
+		393,
 		14
 	],
 	"../pages/save-image/save-image.module": [
-		393,
+		391,
 		13
 	],
 	"../pages/search-newfeed/search-newfeed.module": [
@@ -134,11 +134,11 @@ var map = {
 		12
 	],
 	"../pages/setting/setting.module": [
-		395,
+		396,
 		11
 	],
 	"../pages/socialsharing/socialsharing.module": [
-		396,
+		395,
 		10
 	],
 	"../pages/splash-load/splash-load.module": [
@@ -150,15 +150,15 @@ var map = {
 		8
 	],
 	"../pages/termsand-policy/termsand-policy.module": [
-		399,
+		401,
 		7
 	],
 	"../pages/ticket/ticket.module": [
-		400,
+		399,
 		6
 	],
 	"../pages/traveler/traveler.module": [
-		401,
+		400,
 		5
 	]
 };
@@ -500,7 +500,7 @@ var MenuRightComponent = /** @class */ (function () {
     };
     MenuRightComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'menu-right',template:/*ion-inline-start:"/Users/singha/Documents/work/test/AdventureApp/src/components/menu-right/menu-right.html"*/'<div style="height: 50px;"></div>\n<ion-list style="margin: 0;">\n  <button ion-item (click)="close(1)" detail-none class="profile">\n    <ion-grid style="padding: 0">\n      <ion-row>\n        <ion-col col-3 style="display: inline-grid;">\n          <img style="position: relative;height: 40px;width: 40px;margin: auto;border: 0px;\n          box-shadow: 0px 1px 5px 0.2px rgba(86, 86, 86, 0.5);" id="img_profile" class="imgpro"\n            [src]="gd.userProfile.user_path_img" />\n        </ion-col>\n        <ion-col col-9 style="display: inline-grid;">\n          <div style="margin: auto;margin-left: 0px;width: 100%;">\n            <div class="textProfile">Profile</div>\n            <div class="textName">{{gd.userProfile[\'user_firstname\']}} {{gd.userProfile[\'user_lastname\']}}</div>\n          </div>\n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  </button>\n  <button ion-item (click)="close(2)" detail-none>\n    <img src="./assets/icon/icon_traveler.svg" alt="" class="Middle">\n    <span class="Middle">Traveler</span>\n    <ion-icon name="ios-arrow-forward" item-right style="display: grid;"></ion-icon>\n\n  </button>\n  <!-- <button ion-item (click)="close(3)" detail-none>\n    <img src="./assets/icon/icon_booking.svg" alt="" class="Middle">\n    <span class="Middle">Booking</span>\n    <ion-icon name="ios-arrow-forward" item-right style="display: grid;"></ion-icon>\n\n  </button> -->\n  <button ion-item (click)="close(4)" detail-none>\n    <img src="./assets/icon/icon_setting.svg" alt="" class="Middle">\n    <span class="Middle">Setting</span>\n    <ion-icon name="ios-arrow-forward" item-right style="display: grid;"></ion-icon>\n\n  </button>\n  <button ion-item (click)="close(5)" detail-none>\n    <img src="./assets/icon/icon_logout.svg" alt="" class="Middle">\n    <span class="Middle">Log out</span>\n  </button>\n</ion-list>'/*ion-inline-end:"/Users/singha/Documents/work/test/AdventureApp/src/components/menu-right/menu-right.html"*/
+            selector: 'menu-right',template:/*ion-inline-start:"/Users/singha/Documents/work/ionic/Adventure/AdventureApp/src/components/menu-right/menu-right.html"*/'<div style="height: 50px;"></div>\n<ion-list style="margin: 0;">\n  <button ion-item (click)="close(1)" detail-none class="profile">\n    <ion-grid style="padding: 0">\n      <ion-row>\n        <ion-col col-3 style="display: inline-grid;">\n          <img style="position: relative;height: 40px;width: 40px;margin: auto;border: 0px;\n          box-shadow: 0px 1px 5px 0.2px rgba(86, 86, 86, 0.5);" id="img_profile" class="imgpro"\n            [src]="gd.userProfile.user_path_img" />\n        </ion-col>\n        <ion-col col-9 style="display: inline-grid;">\n          <div style="margin: auto;margin-left: 0px;width: 100%;">\n            <div class="textProfile">Profile</div>\n            <div class="textName">{{gd.userProfile[\'user_firstname\']}} {{gd.userProfile[\'user_lastname\']}}</div>\n          </div>\n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  </button>\n  <button ion-item (click)="close(2)" detail-none>\n    <img src="./assets/icon/icon_traveler.svg" alt="" class="Middle">\n    <span class="Middle">Traveler</span>\n    <ion-icon name="ios-arrow-forward" item-right style="display: grid;"></ion-icon>\n\n  </button>\n  <!-- <button ion-item (click)="close(3)" detail-none>\n    <img src="./assets/icon/icon_booking.svg" alt="" class="Middle">\n    <span class="Middle">Booking</span>\n    <ion-icon name="ios-arrow-forward" item-right style="display: grid;"></ion-icon>\n\n  </button> -->\n  <button ion-item (click)="close(4)" detail-none>\n    <img src="./assets/icon/icon_setting.svg" alt="" class="Middle">\n    <span class="Middle">Setting</span>\n    <ion-icon name="ios-arrow-forward" item-right style="display: grid;"></ion-icon>\n\n  </button>\n  <button ion-item (click)="close(5)" detail-none>\n    <img src="./assets/icon/icon_logout.svg" alt="" class="Middle">\n    <span class="Middle">Log out</span>\n  </button>\n</ion-list>'/*ion-inline-end:"/Users/singha/Documents/work/ionic/Adventure/AdventureApp/src/components/menu-right/menu-right.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Events */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_facebook__["a" /* Facebook */], __WEBPACK_IMPORTED_MODULE_3__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* ViewController */], __WEBPACK_IMPORTED_MODULE_4__services_globaldata_service__["a" /* GlobalDataService */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavParams */]])
     ], MenuRightComponent);
@@ -556,10 +556,10 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__ionic_native_push__ = __webpack_require__(189);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__ionic_native_app_availability__ = __webpack_require__(243);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__ionic_native_location_accuracy__ = __webpack_require__(242);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__ionic_native_base64__ = __webpack_require__(244);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_image_picker__ = __webpack_require__(245);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ionic_native_android_permissions__ = __webpack_require__(247);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ionic_native_base64_to_gallery__ = __webpack_require__(246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__ionic_native_base64__ = __webpack_require__(246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_image_picker__ = __webpack_require__(247);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ionic_native_android_permissions__ = __webpack_require__(245);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ionic_native_base64_to_gallery__ = __webpack_require__(244);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__ionic_native_analytics_firebase__ = __webpack_require__(190);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__ionic_native_file_transfer__ = __webpack_require__(241);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__ionic_native_video_editor__ = __webpack_require__(238);
@@ -625,13 +625,13 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/booking-add/booking-add.module#BookingAddPageModule', name: 'BookingAddPage', segment: 'booking-add', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/booking-explore/booking-explore.module#BookingExplorePageModule', name: 'BookingExplorePage', segment: 'booking-explore', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/bookingdetail/bookingdetail.module#BookingdetailPageModule', name: 'BookingdetailPage', segment: 'bookingdetail', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/chat/chat.module#ChatPageModule', name: 'ChatPage', segment: 'chat', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/bookings/bookings.module#BookingsPageModule', name: 'BookingsPage', segment: 'bookings', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/camera/camera.module#CameraPageModule', name: 'CameraPage', segment: 'camera', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/coconut/coconut.module#CoconutPageModule', name: 'CoconutPage', segment: 'coconut', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/chat/chat.module#ChatPageModule', name: 'ChatPage', segment: 'chat', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/edit-pick/edit-pick.module#EditPickPageModule', name: 'EditPickPage', segment: 'edit-pick', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/detailfeed/detailfeed.module#DetailfeedPageModule', name: 'DetailfeedPage', segment: 'detailfeed', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/edit-tag/edit-tag.module#EditTagPageModule', name: 'EditTagPage', segment: 'edit-tag', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/edit-pick/edit-pick.module#EditPickPageModule', name: 'EditPickPage', segment: 'edit-pick', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/editprofile/editprofile.module#EditprofilePageModule', name: 'EditprofilePage', segment: 'editprofile', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/modal-profile/modal-profile.module#ModalProfilePageModule', name: 'ModalProfilePage', segment: 'modal-profile', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
@@ -640,23 +640,23 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/myticket/myticket.module#MyticketPageModule', name: 'MyticketPage', segment: 'myticket', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/newfeed/newfeed.module#NewsfeedPageModule', name: 'NewsfeedPage', segment: 'newfeed', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/notifications/notifications.module#NotificationsPageModule', name: 'NotificationsPage', segment: 'notifications', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/payment/payment.module#PaymentPageModule', name: 'PaymentPage', segment: 'payment', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/postphoto-modal/postphoto-modal.module#PostphotoModalPageModule', name: 'PostphotoModalPage', segment: 'postphoto-modal', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/postphoto/postphoto.module#PostphotoPageModule', name: 'PostphotoPage', segment: 'postphoto', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/payment/payment.module#PaymentPageModule', name: 'PaymentPage', segment: 'payment', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/preview/preview.module#PreviewPageModule', name: 'PreviewPage', segment: 'preview', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/profile/profile.module#ProfilePageModule', name: 'ProfilePage', segment: 'profile', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/register/register.module#RegisterPageModule', name: 'RegisterPage', segment: 'register', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/save-image/save-image.module#SaveImagePageModule', name: 'SaveImagePage', segment: 'save-image', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/repassword/repassword.module#RepasswordPageModule', name: 'RepasswordPage', segment: 'repassword', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/review/review.module#ReviewPageModule', name: 'ReviewPage', segment: 'review', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/profile/profile.module#ProfilePageModule', name: 'ProfilePage', segment: 'profile', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/save-image/save-image.module#SaveImagePageModule', name: 'SaveImagePage', segment: 'save-image', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/search-newfeed/search-newfeed.module#SearchNewfeedPageModule', name: 'SearchNewfeedPage', segment: 'search-newfeed', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/setting/setting.module#SettingPageModule', name: 'SettingPage', segment: 'setting', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/socialsharing/socialsharing.module#SocialsharingPageModule', name: 'SocialsharingPage', segment: 'socialsharing', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/setting/setting.module#SettingPageModule', name: 'SettingPage', segment: 'setting', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/splash-load/splash-load.module#SplashLoadPageModule', name: 'SplashLoadPage', segment: 'splash-load', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tabs/tabs.module#TabsPageModule', name: 'TabsPage', segment: 'tabs', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/termsand-policy/termsand-policy.module#TermsandPolicyPageModule', name: 'TermsandPolicyPage', segment: 'termsand-policy', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/ticket/ticket.module#TicketPageModule', name: 'TicketPage', segment: 'ticket', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/traveler/traveler.module#TravelerPageModule', name: 'TravelerPage', segment: 'traveler', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/traveler/traveler.module#TravelerPageModule', name: 'TravelerPage', segment: 'traveler', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/termsand-policy/termsand-policy.module#TermsandPolicyPageModule', name: 'TermsandPolicyPage', segment: 'termsand-policy', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_15__ionic_storage__["a" /* IonicStorageModule */].forRoot(),
@@ -798,7 +798,7 @@ var MyApp = /** @class */ (function () {
         // this.googleAnalyticsTrackingHandler();
     };
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/singha/Documents/work/test/AdventureApp/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>'/*ion-inline-end:"/Users/singha/Documents/work/test/AdventureApp/src/app/app.html"*/,
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/singha/Documents/work/ionic/Adventure/AdventureApp/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>'/*ion-inline-end:"/Users/singha/Documents/work/ionic/Adventure/AdventureApp/src/app/app.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_9__services_ServiceFactoryThread__["a" /* ServiceFactoryThread */],
             __WEBPACK_IMPORTED_MODULE_5__ionic_storage__["b" /* Storage */],

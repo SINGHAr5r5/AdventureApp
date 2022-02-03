@@ -1,6 +1,6 @@
 webpackJsonp([15],{
 
-/***/ 390:
+/***/ 392:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RepasswordPageModule", function() { return RepasswordPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__repassword__ = __webpack_require__(573);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__repassword__ = __webpack_require__(575);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -38,7 +38,7 @@ var RepasswordPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 573:
+/***/ 575:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -180,7 +180,7 @@ var RepasswordPage = /** @class */ (function () {
     };
     RepasswordPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-repassword',template:/*ion-inline-start:"/Users/singha/Documents/work/test/AdventureApp/src/pages/repassword/repassword.html"*/'<!--\n  Generated template for the EditprofilePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n\n  <ion-navbar>\n    <ion-buttons start style="position: absolute;" class="Montserrat">\n      <button ion-button (click)="dismiss()" style="color:white;">Cancel</button>\n    </ion-buttons>\n    <ion-title>\n\n      <table style=" width: 100%; ">\n        <tr>\n          <td class="Museo">Reset Password</td>\n        </tr>\n        <tr>\n          <td style="font-size: 10px;opacity: .7;" class="Montserrat">\n            <i>Share your freedom</i>\n          </td>\n        </tr>\n      </table>\n\n    </ion-title>\n    <ion-buttons start style="position: absolute;    right: 0;" class="Montserrat">\n      <button ion-button style="color:white;" (click)="send()">Done</button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding class="Montserrat" >\n  <ion-list class="center list" style=" width: 90%;">\n      <label id="hidden"></label>\n    <div class="inputlogin center" style="margin-bottom: 15px;">\n      <ion-label stacked>Old Password</ion-label>\n      <label for="OldPassword" class="page1" *ngIf="!data.OldPassword" >Old Password</label>\n      <input type="password" id="OldPassword" [(ngModel)]="data.OldPassword" required="required" />\n    </div>\n    <div class="inputlogin center" style="margin-bottom: 15px;">\n      <ion-label stacked>New Password</ion-label>\n      <label for="NewPassword" class="page1" *ngIf="!data.NewPassword" >New Password</label>\n      <input type="password" id="NewPassword" [(ngModel)]="data.NewPassword" required="required" />\n    </div>\n    <div class="inputlogin center" style="margin-bottom: 15px;">\n      <ion-label stacked>Confirm New Password</ion-label>\n      <label for="Confirm" class="page1" *ngIf="!data.Confirm" >Confirm New Password</label>\n      <input type="password" id="Confirm" [(ngModel)]="data.Confirm" required="required" />\n    </div>\n    \n  </ion-list>\n</ion-content>'/*ion-inline-end:"/Users/singha/Documents/work/test/AdventureApp/src/pages/repassword/repassword.html"*/,
+            selector: 'page-repassword',template:/*ion-inline-start:"/Users/singha/Documents/work/ionic/Adventure/AdventureApp/src/pages/repassword/repassword.html"*/'<!--\n  Generated template for the EditprofilePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n\n  <ion-navbar>\n    <ion-buttons start style="position: absolute;" class="Montserrat">\n      <button ion-button (click)="dismiss()" style="color:white;">Cancel</button>\n    </ion-buttons>\n    <ion-title>\n\n      <table style=" width: 100%; ">\n        <tr>\n          <td class="Museo">Reset Password</td>\n        </tr>\n        <tr>\n          <td style="font-size: 10px;opacity: .7;" class="Montserrat">\n            <i>Share your freedom</i>\n          </td>\n        </tr>\n      </table>\n\n    </ion-title>\n    <ion-buttons start style="position: absolute;    right: 0;" class="Montserrat">\n      <button ion-button style="color:white;" (click)="send()">Done</button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding class="Montserrat" >\n  <ion-list class="center list" style=" width: 90%;">\n      <label id="hidden"></label>\n    <div class="inputlogin center" style="margin-bottom: 15px;">\n      <ion-label stacked>Old Password</ion-label>\n      <label for="OldPassword" class="page1" *ngIf="!data.OldPassword" >Old Password</label>\n      <input type="password" id="OldPassword" [(ngModel)]="data.OldPassword" required="required" />\n    </div>\n    <div class="inputlogin center" style="margin-bottom: 15px;">\n      <ion-label stacked>New Password</ion-label>\n      <label for="NewPassword" class="page1" *ngIf="!data.NewPassword" >New Password</label>\n      <input type="password" id="NewPassword" [(ngModel)]="data.NewPassword" required="required" />\n    </div>\n    <div class="inputlogin center" style="margin-bottom: 15px;">\n      <ion-label stacked>Confirm New Password</ion-label>\n      <label for="Confirm" class="page1" *ngIf="!data.Confirm" >Confirm New Password</label>\n      <input type="password" id="Confirm" [(ngModel)]="data.Confirm" required="required" />\n    </div>\n    \n  </ion-list>\n</ion-content>'/*ion-inline-end:"/Users/singha/Documents/work/ionic/Adventure/AdventureApp/src/pages/repassword/repassword.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */], __WEBPACK_IMPORTED_MODULE_4__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_3__services_globaldata_service__["a" /* GlobalDataService */], __WEBPACK_IMPORTED_MODULE_2__services_ServiceFactoryThread__["a" /* ServiceFactoryThread */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* ViewController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavParams */]])
     ], RepasswordPage);

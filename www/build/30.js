@@ -1,6 +1,6 @@
 webpackJsonp([30],{
 
-/***/ 372:
+/***/ 373:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoconutPageModule", function() { return CoconutPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__coconut__ = __webpack_require__(554);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__coconut__ = __webpack_require__(555);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -38,7 +38,7 @@ var CoconutPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 554:
+/***/ 555:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -152,7 +152,7 @@ var CoconutPage = /** @class */ (function () {
     };
     CoconutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-coconut',template:/*ion-inline-start:"/Users/singha/Documents/work/test/AdventureApp/src/pages/coconut/coconut.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>{{title}}</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-list>\n    <ion-item *ngFor="let data of data;let i = index;">\n\n      <ion-thumbnail item-start (click)="NextPage(\'ProfilePage\',data)">\n        <img id="profile" [src]="data.user_path_img">\n      </ion-thumbnail>\n\n      <h3 (click)="NextPage(\'ProfilePage\',data)" style="margin-top: 0px;"><span\n          [innerHtml]="data.user_firstname"></span> <span [innerHtml]="data.user_lastname"></span></h3>\n      <p (click)="NextPage(\'ProfilePage\',data)">from {{data.country_name_en}}</p>\n\n      <i class="Following " *ngIf="data.follow>0 && data.user_id !=gd.userProfile.user_id" (click)="follow(2,i)"></i>\n      <i class="Follow " *ngIf="data.follow==0 && data.user_id != gd.userProfile.user_id" (click)="follow(1,i)"></i>\n    </ion-item>\n  </ion-list>\n</ion-content>\n\n<div id="footer" style="z-index:5"></div>'/*ion-inline-end:"/Users/singha/Documents/work/test/AdventureApp/src/pages/coconut/coconut.html"*/,
+            selector: 'page-coconut',template:/*ion-inline-start:"/Users/singha/Documents/work/ionic/Adventure/AdventureApp/src/pages/coconut/coconut.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>{{title}}</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-list>\n    <ion-item *ngFor="let data of data;let i = index;">\n\n      <ion-thumbnail item-start (click)="NextPage(\'ProfilePage\',data)">\n        <img id="profile" [src]="data.user_path_img">\n      </ion-thumbnail>\n\n      <h3 (click)="NextPage(\'ProfilePage\',data)" style="margin-top: 0px;"><span\n          [innerHtml]="data.user_firstname"></span> <span [innerHtml]="data.user_lastname"></span></h3>\n      <p (click)="NextPage(\'ProfilePage\',data)">from {{data.country_name_en}}</p>\n\n      <i class="Following " *ngIf="data.follow>0 && data.user_id !=gd.userProfile.user_id" (click)="follow(2,i)"></i>\n      <i class="Follow " *ngIf="data.follow==0 && data.user_id != gd.userProfile.user_id" (click)="follow(1,i)"></i>\n    </ion-item>\n  </ion-list>\n</ion-content>\n\n<div id="footer" style="z-index:5"></div>'/*ion-inline-end:"/Users/singha/Documents/work/ionic/Adventure/AdventureApp/src/pages/coconut/coconut.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */], __WEBPACK_IMPORTED_MODULE_3__services_globaldata_service__["a" /* GlobalDataService */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__services_ServiceFactoryThread__["a" /* ServiceFactoryThread */]])
     ], CoconutPage);

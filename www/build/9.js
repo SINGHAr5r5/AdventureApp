@@ -105,7 +105,7 @@ var SplashLoadPage = /** @class */ (function () {
     };
     SplashLoadPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-splash-load',template:/*ion-inline-start:"/Users/singha/Documents/work/test/AdventureApp/src/pages/splash-load/splash-load.html"*/'<ion-content padding>\n\n</ion-content>'/*ion-inline-end:"/Users/singha/Documents/work/test/AdventureApp/src/pages/splash-load/splash-load.html"*/,
+            selector: 'page-splash-load',template:/*ion-inline-start:"/Users/singha/Documents/work/ionic/Adventure/AdventureApp/src/pages/splash-load/splash-load.html"*/'<ion-content padding>\n\n</ion-content>'/*ion-inline-end:"/Users/singha/Documents/work/ionic/Adventure/AdventureApp/src/pages/splash-load/splash-load.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_4__services_globaldata_service__["a" /* GlobalDataService */], __WEBPACK_IMPORTED_MODULE_3__services_ServiceFactoryThread__["a" /* ServiceFactoryThread */], __WEBPACK_IMPORTED_MODULE_2__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavParams */]])
     ], SplashLoadPage);
