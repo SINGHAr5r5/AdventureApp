@@ -1,6 +1,6 @@
 webpackJsonp([12],{
 
-/***/ 393:
+/***/ 394:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SearchNewfeedPageModule", function() { return SearchNewfeedPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__search_newfeed__ = __webpack_require__(576);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__search_newfeed__ = __webpack_require__(577);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -38,7 +38,7 @@ var SearchNewfeedPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 576:
+/***/ 577:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -182,7 +182,7 @@ var SearchNewfeedPage = /** @class */ (function () {
     ], SearchNewfeedPage.prototype, "myInput", void 0);
     SearchNewfeedPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-search-newfeed',template:/*ion-inline-start:"/Users/singha/Documents/work/ionic/AE_APP/src/pages/search-newfeed/search-newfeed.html"*/'<ion-header style="border-bottom: 1px solid #eaeaea;">\n\n  <ion-navbar>\n    <ion-searchbar id="searchNewFeed" style="max-width: 85%;display: inline-flex;vertical-align: middle;background: #EBEDED;border-radius: 8px;padding: 0px;min-height: 30px;"\n      placeholder="Search for a place" (ionInput)="filterItems($event)" [animated]="true" #myInput [(ngModel)]="inputSearch" (search)="enterSearch()">\n    </ion-searchbar>\n    <div style="display: inline-flex;color: #8a8a8a;" (click)="cancle()">Cancel</div>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-grid>\n    <ion-row style="text-align: center">\n      <ion-col col-6>\n        <div style="width: 120px;margin: auto;border-radius: 5px;padding: 3px 5px;" (click)="chooser(\'Recent\')" [ngClass]="typeSearch == \'Recent\' ? \'action\' : \'\'">\n          <span>Recent</span>\n        </div>\n      </ion-col>\n      <ion-col col-6>\n        <div style="width: 120px;margin: auto;border-radius: 5px;padding: 3px 5px;" (click)="chooser(\'Near Location\')" [ngClass]="typeSearch == \'Recent\' ? \'\' : \'action\'">\n          <span>Nearest</span>\n        </div>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n  <div>\n    <div class="boxSearch" *ngFor="let data of dataSearch" (click)="selected(data)">\n      <span [innerHTML]="data.photo_location"></span>\n    </div>\n  </div>\n</ion-content>'/*ion-inline-end:"/Users/singha/Documents/work/ionic/AE_APP/src/pages/search-newfeed/search-newfeed.html"*/,
+            selector: 'page-search-newfeed',template:/*ion-inline-start:"/Users/singha/Documents/work/test/AdventureApp/src/pages/search-newfeed/search-newfeed.html"*/'<ion-header style="border-bottom: 1px solid #eaeaea;">\n\n  <ion-navbar>\n    <ion-searchbar id="searchNewFeed" style="max-width: 85%;display: inline-flex;vertical-align: middle;background: #EBEDED;border-radius: 8px;padding: 0px;min-height: 30px;"\n      placeholder="Search for a place" (ionInput)="filterItems($event)" [animated]="true" #myInput [(ngModel)]="inputSearch" (search)="enterSearch()">\n    </ion-searchbar>\n    <div style="display: inline-flex;color: #8a8a8a;" (click)="cancle()">Cancel</div>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-grid>\n    <ion-row style="text-align: center">\n      <ion-col col-6>\n        <div style="width: 120px;margin: auto;border-radius: 5px;padding: 3px 5px;" (click)="chooser(\'Recent\')" [ngClass]="typeSearch == \'Recent\' ? \'action\' : \'\'">\n          <span>Recent</span>\n        </div>\n      </ion-col>\n      <ion-col col-6>\n        <div style="width: 120px;margin: auto;border-radius: 5px;padding: 3px 5px;" (click)="chooser(\'Near Location\')" [ngClass]="typeSearch == \'Recent\' ? \'\' : \'action\'">\n          <span>Nearest</span>\n        </div>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n  <div>\n    <div class="boxSearch" *ngFor="let data of dataSearch" (click)="selected(data)">\n      <span [innerHTML]="data.photo_location"></span>\n    </div>\n  </div>\n</ion-content>'/*ion-inline-end:"/Users/singha/Documents/work/test/AdventureApp/src/pages/search-newfeed/search-newfeed.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__services_globaldata_service__["a" /* GlobalDataService */], __WEBPACK_IMPORTED_MODULE_2__services_ServiceFactoryThread__["a" /* ServiceFactoryThread */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* ViewController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavParams */]])
     ], SearchNewfeedPage);

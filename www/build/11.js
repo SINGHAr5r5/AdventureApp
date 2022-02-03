@@ -1,6 +1,6 @@
 webpackJsonp([11],{
 
-/***/ 394:
+/***/ 395:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SettingPageModule", function() { return SettingPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__setting__ = __webpack_require__(577);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__setting__ = __webpack_require__(578);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -38,7 +38,7 @@ var SettingPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 577:
+/***/ 578:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -137,7 +137,7 @@ var SettingPage = /** @class */ (function () {
     };
     SettingPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-setting',template:/*ion-inline-start:"/Users/singha/Documents/work/ionic/AE_APP/src/pages/setting/setting.html"*/'<!--\n  Generated template for the SettingPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar>\n      <ion-title class="Museo">\n\n          <table style=" width: 100%; ">\n              <tr>\n                <td>Settings</td>\n              </tr>\n              <tr>\n                <td style="font-size: 10px;opacity: .7;" class="Montserrat"><i>Share your freedom</i></td>\n              </tr>\n            </table>\n      </ion-title>\n    </ion-navbar>\n\n  </ion-header>\n\n\n  <ion-content padding class="Montserrat">\n    <ion-list>\n      <button ion-item (click)=\'EditProfile()\'>\n        Edit Profile\n      </button>\n      <button ion-item style="line-height: 13px;padding-top: 5px;padding-top: 1px;margin: 0px 0px 0px 0;"  (click)=\'EditPick()\' class="settext">\n        Edit Settings <br>\n        <span style="font-size: 10px;color: #AEAEAE"> (Picture,Place,Interesting) </span>\n      </button>\n      <button ion-item  class="no-item-inner"    (click)=\'ResetPassword()\' *ngIf="type != \'fb\'">\n        <span style="color: #AEAEAE">Reset Password</span>\n      </button>\n      <button ion-item  class="no-item-inner" (click)=\'logout()\'>\n          <i class="off icon25"></i>  <span style="margin-left:30px;" class="colorRed"> LOG OUT </span>\n      </button>\n      <div ion-item  style="    background-color: transparent;">\n          <!-- <span style="position: absolute;\n          top: 0;\n          right: 20px;\n          font-size: 12px;">ver.  {{gd.vertion}}</span> -->\n          <span style="position: absolute;\n          top: 0;\n          right: 20px;\n          font-size: 12px;">ver.4.0</span>\n      </div>\n    </ion-list>\n    <!-- <div  style="     padding-left: 20px;\n                font-size: 12px;\n                margin-top: -55px;\n                z-index: 5000;">\n\n         -->\n    <!-- </div> -->\n  </ion-content>\n  <div id="footer"></div>\n'/*ion-inline-end:"/Users/singha/Documents/work/ionic/AE_APP/src/pages/setting/setting.html"*/,
+            selector: 'page-setting',template:/*ion-inline-start:"/Users/singha/Documents/work/test/AdventureApp/src/pages/setting/setting.html"*/'<!--\n  Generated template for the SettingPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar>\n      <ion-title class="Museo">\n\n          <table style=" width: 100%; ">\n              <tr>\n                <td>Settings</td>\n              </tr>\n              <tr>\n                <td style="font-size: 10px;opacity: .7;" class="Montserrat"><i>Share your freedom</i></td>\n              </tr>\n            </table>\n      </ion-title>\n    </ion-navbar>\n\n  </ion-header>\n\n\n  <ion-content padding class="Montserrat">\n    <ion-list>\n      <button ion-item (click)=\'EditProfile()\'>\n        Edit Profile\n      </button>\n      <button ion-item style="line-height: 13px;padding-top: 5px;padding-top: 1px;margin: 0px 0px 0px 0;"  (click)=\'EditPick()\' class="settext">\n        Edit Settings <br>\n        <span style="font-size: 10px;color: #AEAEAE"> (Picture,Place,Interesting) </span>\n      </button>\n      <button ion-item  class="no-item-inner"    (click)=\'ResetPassword()\' *ngIf="type != \'fb\'">\n        <span style="color: #AEAEAE">Reset Password</span>\n      </button>\n      <button ion-item  class="no-item-inner" (click)=\'logout()\'>\n          <i class="off icon25"></i>  <span style="margin-left:30px;" class="colorRed"> LOG OUT </span>\n      </button>\n      <div ion-item  style="    background-color: transparent;">\n          <!-- <span style="position: absolute;\n          top: 0;\n          right: 20px;\n          font-size: 12px;">ver.  {{gd.vertion}}</span> -->\n          <span style="position: absolute;\n          top: 0;\n          right: 20px;\n          font-size: 12px;">ver.4.0</span>\n      </div>\n    </ion-list>\n    <!-- <div  style="     padding-left: 20px;\n                font-size: 12px;\n                margin-top: -55px;\n                z-index: 5000;">\n\n         -->\n    <!-- </div> -->\n  </ion-content>\n  <div id="footer"></div>\n'/*ion-inline-end:"/Users/singha/Documents/work/test/AdventureApp/src/pages/setting/setting.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_facebook__["a" /* Facebook */], __WEBPACK_IMPORTED_MODULE_5__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_3__services_ServiceFactoryThread__["a" /* ServiceFactoryThread */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ModalController */], __WEBPACK_IMPORTED_MODULE_2__services_globaldata_service__["a" /* GlobalDataService */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Events */]])
     ], SettingPage);
