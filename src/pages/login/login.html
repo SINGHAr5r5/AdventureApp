@@ -34,7 +34,7 @@
             <i class="or sizeor"></i>
         </div>
 
-        <div style="    margin-top: 20px;" (click)="loginFacebook()">
+        <div *ngIf="gd.isShowFacebook" style="margin-top: 20px;" (click)="loginFacebook()">
             <button ion-button full style="padding: 20px;">
                 <span class="Museo">
                 <ion-icon ios="logo-facebook" md="logo-facebook"></ion-icon> Login with Facebook
